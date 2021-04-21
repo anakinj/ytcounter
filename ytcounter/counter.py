@@ -97,7 +97,7 @@ class Controller:
 
     def draw_text(self, draw, content):
         content_len = len(content)
-        text(draw, (66 - (content_len * 6), 1), content,
+        text(draw, (64 - (content_len * 6), 1), content,
              fill="white", font=proportional(LCD_FONT))
 
     def draw_pic(self, draw, pattern, offset):
